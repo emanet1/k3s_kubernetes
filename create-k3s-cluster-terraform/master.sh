@@ -8,4 +8,5 @@ sysctl -p
 chmod 644 /etc/sysctl.conf
 curl -sfL https://get.k3s.io | sh -
 systemctl status k3s.service
+sudo chmod 644 /etc/rancher/k3s/k3s.yaml # use kubectl without sudo
 
